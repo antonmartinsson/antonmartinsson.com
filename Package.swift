@@ -12,11 +12,12 @@ let package = Package(
     ],
     dependencies: [
         .package(name: "Publish", url: "https://github.com/johnsundell/publish.git", from: "0.7.0"),
+		.package(name: "Plot", url: "https://github.com/johnsundell/plot.git", from: "0.9.1"),
     ],
     targets: [
         .target(
             name: "Portfolio",
-            dependencies: ["Publish"]
+            dependencies: ["Publish", "Plot"]
         )
     ]
 )
