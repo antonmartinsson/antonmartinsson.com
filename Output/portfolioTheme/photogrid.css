@@ -1,0 +1,71 @@
+.camerasContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8%;
+}
+
+.photo {
+  opacity: 0.9;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+  border-radius: 3px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05), 0 4px 4px rgba(0, 0, 0, 0.05),
+    0 8px 8px rgba(0, 0, 0, 0.05), 0 16px 16px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  filter: grayscale(10%);
+}
+
+.photo:hover {
+  opacity: 1;
+}
+
+.column {
+  flex: 15%;
+  max-width: 17%;
+  padding: 0 7px;
+}
+
+.column img {
+  vertical-align: middle;
+  transition: transform 0.3s ease;
+}
+
+.column img:hover {
+  transform: scale(1.03);
+}
+
+img {
+  width: 100%;
+}
+
+@media all and (max-width: 1023px) {
+  .column {
+    max-width: 16%;
+  }
+}
+
+@media all and (max-width: 414px) {
+  #fifthColumn {
+    display: none;
+  }
+
+  #fourthColumn {
+    display: none;
+  }
+
+  #thirdColumn {
+    padding-top: 8px;
+  }
+
+  .column {
+    max-width: 25%;
+  }
+}

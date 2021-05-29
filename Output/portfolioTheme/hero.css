@@ -1,0 +1,39 @@
+#heroContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	margin-top: 5%;
+	margin-bottom: 10%;
+    height: 70%;
+}
+
+.hi {
+    font-family: Beattingvile;
+    font-size: 20vw;
+}
+
+#subtitle {
+    font-family: Metropolis;
+    font-size: 2vw;
+	text-align: center;
+}
+
+@media screen and (min-width: 1080px) {
+    #heroContainer {
+        height: 80%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #heroContainer {
+        height: 70vw;
+		margin-bottom: 0%;
+    }
+
+    #subtitle {
+        font-family: Metropolis;
+        padding-top: 10px;
+        font-size: 2.5vw;
+    }
+}

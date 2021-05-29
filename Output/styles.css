@@ -1,0 +1,69 @@
+.container {
+  overflow: hidden;
+  box-sizing: border-box;
+  padding-top: 60px;
+}
+
+.sectionLabel {
+  font-family: Beattingvile;
+  font-size: 8vw;
+  padding: 0 2vw;
+  background-color: #fff;
+  z-index: 1;
+  transform: rotate(-2deg);
+  position: absolute;
+  margin-left: 8%;
+  border-color: lightgray;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.05),
+    0 4px 4px 4px rgba(0, 0, 0, 0.05), 0 8px 8px 8px rgba(0, 0, 0, 0.05),
+    0 16px 16px 16px rgba(0, 0, 0, 0.05);
+}
+
+.hStack {
+  display: flex;
+  flex-direction: row;
+}
+
+.vStack {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.expandContract {
+  margin-top: -100%;
+  transition: ease-in-out s;
+}
+
+@font-face {
+  font-family: Beattingvile;
+  src: url('../Fonts/Beattingvile.otf');
+}
+
+@font-face {
+  font-family: Metropolis;
+  src: url('../Fonts/Metropolis-Medium.otf');
+}
+
+@font-face {
+  font-family: Coolvetica;
+  src: url('../Fonts/Coolvetica-Condensed.ttf');
+}
+
+@media screen and (max-width: 1023px) {
+  .sectionLabel {
+    font-size: 14vw;
+    transform: rotate(-2deg) translateY(-20px);
+  }
+}

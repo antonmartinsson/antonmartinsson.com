@@ -1,0 +1,177 @@
+#badgeContainer {
+  padding: 5% 4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 30%;
+  opacity: 0.7;
+  margin: 1.5%;
+  stroke: black;
+  stroke-width: 10;
+  transition: all 0.3s ease;
+  border-radius: 30px;
+  -webkit-box-shadow: 10px 10px 26px 6px rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: 10px 10px 26px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 10px 10px 26px 6px rgba(0, 0, 0, 0.16);
+}
+
+.companyLogo {
+  max-height: 60%;
+  max-width: 60%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.workDescription {
+  cursor: default;
+  display: none;
+  position: absolute;
+  padding: 10%;
+  color: white;
+  text-align: left;
+  font-family: 'Metropolis';
+  stroke-width: 0px;
+  font-size: 13pt;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+
+#spotifyLogo {
+  background-image: url('../Logos/spotify.png');
+}
+
+#teamEngineLogo {
+  background-image: url('../Logos/teamengine.png');
+}
+
+#ericssonLogo {
+  background-image: url('../Logos/ericsson.png');
+}
+
+h2 {
+  margin: 1%;
+}
+
+tspan {
+  fill: white;
+  cursor: default;
+}
+
+.badge:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+.badge:hover > .companyLogo {
+  opacity: 0.1;
+}
+
+.badge:hover > .workDescription {
+  display: block;
+  opacity: 1;
+}
+
+.companyLogo {
+  opacity: 1;
+  transition: 0.3s ease;
+}
+
+#teamEngine {
+	background-color: #FCC000;
+}
+
+#spotify {
+	background-color: #1DB954;
+}
+
+#ericsson {
+	background-color: #66A3FA;
+}
+
+@media screen and (max-width: 1023px) {
+  .badge {
+    width: 70%;
+    height: 100px;
+    margin: 30px;
+    margin-top: 0px;
+    padding: 5%;
+    justify-content: left;
+  }
+
+  #workSectionLabel {
+    transform: translateY(-5vw) rotate(-2deg);
+  }
+
+  .companyLogo {
+    max-height: 80%;
+    max-width: 80%;
+  }
+
+  #badgeContainer {
+    flex-direction: column;
+  }
+
+  .workplace {
+    display: flex;
+    width: 100%;
+    padding: 20px 10px;
+  }
+
+  .workDescription {
+    display: block;
+    opacity: 1;
+    position: relative;
+    padding: 1%;
+    padding-left: 6%;
+    font-size: 12pt;
+  }
+
+  .badge:hover > .companyLogo {
+    opacity: 1;
+  }
+
+  .badge:hover {
+    transform: initial;
+  }
+
+  .workSuperTitle {
+    display: block;
+  }
+
+  h2 {
+    display: none;
+  }
+
+  br {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .badge {
+    justify-content: center;
+  }
+
+  .workDescription {
+    display: none;
+  }
+
+  .badge:hover > .workDescription {
+    display: none;
+  }
+
+  #workSectionLabel {
+    transform: rotate(-2deg);
+  }
+}

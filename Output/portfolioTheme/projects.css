@@ -1,0 +1,242 @@
+.projectContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project {
+  display: flex;
+  margin: 2% 10%;
+  flex-direction: row;
+  position: relative;
+  margin-bottom: 5%;
+  overflow: visible;
+  align-items: center;
+}
+
+.projectImage {
+  transition: ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+.project:hover > .projectImage {
+  transform: scale(1.05);
+}
+
+.projectLongText {
+  font-family: Metropolis;
+  font-size: 2vw;
+  color: #a7a7a7;
+  cursor: pointer;
+}
+
+.projectShortText {
+  font-family: Metropolis;
+  font-size: 10pt;
+  color: #a7a7a7;
+  cursor: pointer;
+  display: none;
+}
+
+.projectTitle {
+  font-family: Metropolis;
+  font-size: 10vw;
+  cursor: pointer;
+}
+
+.projectSuperTitle {
+  position: absolute;
+  font-family: Metropolis;
+  font-size: 17vw;
+  opacity: 0.04;
+  z-index: -1;
+  cursor: default;
+}
+
+#showMoreButton {
+  font-family: Metropolis;
+  padding: 2.2vw;
+  font-size: 2.2vw;
+  border-radius: 15px;
+  align-self: center;
+  background: rgba(207, 207, 207, 0.6);
+  border-width: 1px;
+  border-color: lightgray;
+  border-style: solid;
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
+}
+
+#showMoreButton:hover {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+/* PLÅTNIKLAS */
+
+#platniklasIcon {
+  width: 20vw;
+  align-self: center;
+  margin-right: 3vw;
+}
+
+#platniklasTitle {
+  color: #50d6ff;
+  z-index: 1;
+  text-shadow: 10px 10px 70px rgba(80, 214, 255, 0.4);
+}
+
+#platniklasSuperTitle {
+  color: #007596;
+  opacity: 0.05;
+}
+
+#platniklasLongText {
+  padding: 3vw 0 0 3vw;
+}
+
+#platniklasShortText {
+  padding: 3vw 0 0 3vw;
+}
+
+/* MARTINSSON PHOTOGRAPHY */
+
+#martinssonPhotoIcon {
+  width: 30vw;
+  align-self: center;
+  margin-left: 3vw;
+}
+
+#martinssonPhotoTitle {
+  width: 40vw;
+  font-size: 7vw;
+  text-shadow: -10px 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+#martinssonPhotoLongText {
+  padding: 3vw 0 0 0;
+}
+
+#martinssonPhotoShortText {
+  padding: 3vw 0 0 0;
+}
+
+/* MISSION EMISSION */
+
+#missionEmissionIcon {
+  width: 20vw;
+  align-self: center;
+}
+
+#missionEmissionTitle {
+  color: #ff6a5c;
+  z-index: 1;
+  font-size: 9vw;
+  margin-left: 6vw;
+  text-shadow: -10px 10px 70px rgba(255, 106, 92, 0.3);
+}
+
+#missionEmissionSuperTitle {
+  color: #770a00;
+  opacity: 0.05;
+}
+
+#missionEmissionLongText {
+  margin: 3vw 0 0 6vw;
+}
+
+#missionEmissionShortText {
+  margin: 3vw 0 0 6vw;
+}
+
+/* TWEET TO BEAT */
+
+#tweetToBeat {
+  transition: all 1s;
+}
+
+#tweetToBeatIcon {
+  margin-right: 5vw;
+  width: 27vw;
+  align-self: center;
+}
+
+#tweetToBeatTitle {
+  width: 40vw;
+  font-size: 9vw;
+  color: #595959;
+  text-shadow: -10px 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+#tweetToBeatLongText {
+  padding: 3vw 8vw 0 0;
+}
+
+#tweetToBeatShortText {
+  padding: 3vw 8vw 0 0;
+}
+
+/* POKÉFY */
+
+#pokefy {
+  padding-top: 2vw;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 1s;
+}
+
+#pokefyIcon {
+  width: 20vw;
+  align-self: center;
+}
+
+#pokefyTitle {
+  padding-left: 5vw;
+  color: #fe0000;
+  z-index: 1;
+  text-shadow: -10px 10px 70px rgba(254, 0, 0, 0.3);
+}
+
+#pokefySuperTitle {
+  color: #890000;
+  opacity: 0.05;
+}
+
+#pokefyLongText {
+  padding: 3vw 0 0 6vw;
+}
+
+#pokefyShortText {
+  padding: 3vw 0 0 6vw;
+}
+
+@media screen and (max-width: 1023px) {
+  .projectLongText {
+    font-size: 14pt;
+  }
+
+  #projectSectionLabel {
+    transform: translateY(-5vw) rotate(-2deg);
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .projectShortText {
+    display: block;
+  }
+
+  .projectLongText {
+    display: none;
+  }
+
+  #platniklasIcon {
+    width: 25vw;
+  }
+
+  #martinssonPhotoIcon {
+    width: 35vw;
+  }
+
+  #projectSectionLabel {
+    transform: translateY(-8vw) rotate(-2deg);
+  }
+}
