@@ -30,6 +30,7 @@ struct TeamEngineBadge: Component {
 			Div {
 				H2("iOS Developer")
 				Paragraph("As an iOS Developer for the rapidly growing TeamEngine, I have the responsibility of making their iOS offering the best it can be, working with the latest and greatest that Xcode and Swift has to offer.")
+					.class("workParagraph")
 			}
 			.class("workDescription")
 			.id("teamEngineDescription")
@@ -47,8 +48,9 @@ struct SpotifyBadge: Component {
 				.class("companyLogo")
 				.id("spotifyLogo")
 			Div {
-				H2("Developer intern")
+				H2("Front-End Developer intern")
 				Paragraph("At Spotify, I worked as a front-end developer intern in a team responsible for creating the tools used for programming and content management in the Spotify application, mainly utlizing React and Typescript to create said tools.")
+					.class("workParagraph")
 			}
 			.class("workDescription")
 			.id("spotifyDescription")
@@ -68,6 +70,7 @@ struct EricssonBadge: Component {
 			Div {
 				H2("UX / UI Intern")
 				Paragraph(" My internship at Ericsson revolved around user testing of their new intranet, but I also took my own initiatives and created a clickable prototype of the website for testing purposes, as well as some vector art for some internal online workspaces.")
+					.class("workParagraph")
 			}
 			.class("workDescription")
 			.id("ericssonDescription")

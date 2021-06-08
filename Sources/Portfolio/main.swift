@@ -65,14 +65,6 @@ private struct PortfolioHTMLFactory<Site: Website>: HTMLFactory {
 							Project(projectInfo: Projects.platNiklas, iconAlignment: .left)
 							Project(projectInfo: Projects.martinssonPhotography, iconAlignment: .right)
 							Project(projectInfo: Projects.tweetToBeat, iconAlignment: .left)
-//							Span("Show 2 more projects").id("showMoreButton")
-//							Div {
-//								Div {
-//									Project(projectInfo: Projects.missionEmission, iconAlignment: .left)
-//									Project(projectInfo: Projects.pokefy, iconAlignment: .left)
-//								}
-//								.class("expandContract")
-//							}
 						}
 						.class("projectContainer")
 					}
