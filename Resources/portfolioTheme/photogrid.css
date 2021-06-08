@@ -52,7 +52,7 @@ img {
   }
 }
 
-@media all and (max-width: 390px) {
+@media all and (max-width: 500px) {
   #fifthColumn {
     display: none;
   }
