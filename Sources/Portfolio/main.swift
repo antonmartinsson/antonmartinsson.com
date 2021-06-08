@@ -78,7 +78,7 @@ private struct PortfolioHTMLFactory<Site: Website>: HTMLFactory {
 					.class("container")
 					
 					Div {
-						SectionLabel(label: "Contact").style("padding-right: 60px; margin-top: 30px;")
+						SectionLabel(label: "Contact").id("contactSectionLabel")
 						Contact()
 					}
 					.class("container")

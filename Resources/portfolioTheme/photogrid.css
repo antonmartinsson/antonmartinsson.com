@@ -52,7 +52,7 @@ img {
   }
 }
 
-@media all and (max-width: 414px) {
+@media all and (max-width: 428px) {
   #fifthColumn {
     display: none;
   }
@@ -62,7 +62,7 @@ img {
   }
 
   #thirdColumn {
-    padding-top: 8px;
+    padding-top: 10px;
   }
 
   .column {
