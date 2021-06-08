@@ -29,6 +29,7 @@ private struct PortfolioHTMLFactory<Site: Website>: HTMLFactory {
 				.meta(.charset(.utf8)),
 				.meta(.name("viewport"), .content("width=device-width, initial-scale=1")),
 				.link(.rel(.shortcutIcon), .type("image/png"), .href("shortcutIcon.png")),
+				.title("Anton's Portfolio"),
 				.stylesheet("styles.css"),
 				.stylesheet("photogrid.css"),
 				.stylesheet("hero.css"),
