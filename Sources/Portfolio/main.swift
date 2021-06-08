@@ -27,6 +27,7 @@ private struct PortfolioHTMLFactory<Site: Website>: HTMLFactory {
 		HTML(
 			.head(
 				.meta(.charset(.utf8)),
+				.meta(.name("viewport"), .content("width=device-width, initial-scale=1")),
 				.stylesheet("styles.css"),
 				.stylesheet("photogrid.css"),
 				.stylesheet("hero.css"),
