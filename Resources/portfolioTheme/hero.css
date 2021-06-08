@@ -27,13 +27,17 @@
 
 @media screen and (max-width: 800px) {
     #heroContainer {
-        height: 70vw;
+        height: 60vw;
 		margin-bottom: 0%;
     }
+	
+	.hi {
+		font-size: 23vw;
+	}
 
     #subtitle {
         font-family: Metropolis;
         padding-top: 10px;
-        font-size: 2.5vw;
+        font-size: 3vw;
     }
 }
