@@ -101,7 +101,7 @@ tspan {
 
 @media screen and (max-width: 1023px) {
 	.badge {
-		width: 70%;
+		width: 75%;
 		height: 100px;
 		margin: 30px;
 		margin-top: 0px;
