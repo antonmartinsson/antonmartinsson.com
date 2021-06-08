@@ -46,13 +46,13 @@ img {
   width: 100%;
 }
 
-@media all and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .column {
     max-width: 16%;
   }
 }
 
-@media all and (max-width: 500px) {
+@media screen and (max-width: 428px) {
   #fifthColumn {
     display: none;
   }
