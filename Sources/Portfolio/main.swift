@@ -14,9 +14,9 @@ struct Portfolio: Website {
     }
 
     // Update these properties to configure your website:
-    var url = URL(string: "https://antonmartinsson.netlify.app")!
+    var url = URL(string: "https://antonmartinsson.com")!
     var name = "Anton Martinsson"
-    var description = "A description of this website"
+    var description = "Anton's portfolio"
     var language: Language { .english }
     var imagePath: Path? { nil }
 }
