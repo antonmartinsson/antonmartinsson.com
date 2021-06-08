@@ -49,7 +49,7 @@ struct SpotifyBadge: Component {
 				.class("companyLogo")
 				.id("spotifyLogo")
 			Div {
-				Paragraph("Front-End Developer intern")
+				Paragraph("Front-End Intern")
 					.id("jobTitle")
 				Paragraph("At Spotify, I worked as a front-end developer intern in a team responsible for creating the tools used for programming and content management in the Spotify application, mainly utlizing React and Typescript to create said tools.")
 					.class("workParagraph")
