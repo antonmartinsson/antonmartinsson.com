@@ -102,7 +102,7 @@ tspan {
 	background-color: #66A3FA;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1023px), (pointer:none) {
 	.badge {
 		width: 75%;
 		height: 100px;
