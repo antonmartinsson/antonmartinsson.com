@@ -23,7 +23,7 @@ struct Contact: Component {
 						Link("antonm@rtinsson.com", url: "mailto:antonm@rtinsson.com")
 					}.id("email")
 					HStack {
-						Link(url: "https://www.twitter.com/antonmedstorta") {
+						Link(url: "https://www.twitter.com/ntonmartinsson") {
 							Image(url: "Logos/twitter.png", description: "Twitter logo")
 						}
 						.id("twitterLogo")
