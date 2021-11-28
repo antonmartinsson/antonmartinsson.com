@@ -40,6 +40,11 @@
   margin-left: 5px;
 }
 
+#iconContainer {
+	margin-top: 20px;
+	justify-content: left;
+}
+
 .grid-item-divider {
   display: block;
   position: relative;

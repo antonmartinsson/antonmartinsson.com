@@ -11,12 +11,41 @@ import Plot
 struct Work: Component {
 	
 	var body: Component {
-		HStack {
-			TeamEngineBadge()
-			SpotifyBadge()
-			EricssonBadge()
+		VStack {
+			HStack {
+				WarOnCancerBadge()
+				TeamEngineBadge()
+			}
+			.class("badgeContainer")
+
+			HStack {
+				SpotifyBadge()
+				EricssonBadge()
+			}
+			.class("badgeContainer")
 		}
-		.id("badgeContainer")
+		.id("workContainer")
+	}
+}
+
+struct WarOnCancerBadge: Component {
+	
+	var body: Component {
+		Div {
+			Div()
+				.class("companyLogo")
+				.id("warOnCancerLogo")
+			Div {
+				Paragraph("iOS Engineer")
+					.id("jobTitle")
+				Paragraph("Lorem ipsum dolor sit amet, consectetur adipiscing elit. In turpis nunc, sodales at nulla vel, consequat molestie urna. Nunc id cursus ligula, ut aliquet justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In turpis nunc, sodales at nulla vel.")
+					.class("workParagraph")
+			}
+			.class("workDescription")
+			.id("teamEngineDescription")
+		}
+		.class("badge")
+		.id("warOnCancer")
 	}
 }
 
@@ -30,7 +59,7 @@ struct TeamEngineBadge: Component {
 			Div {
 				Paragraph("iOS Developer")
 					.id("jobTitle")
-				Paragraph("As an iOS Developer for the rapidly growing TeamEngine, I have the responsibility of making their iOS offering the best it can be, working with the latest and greatest that Xcode and Swift has to offer.")
+				Paragraph("As the sole full time iOS Developer for the Stockholm native TeamEngine, I took their iOS offering to new highs and modernized multiple aspects of their app while the company was expanding its reach both in terms of users and employees. ")
 					.class("workParagraph")
 			}
 			.class("workDescription")

@@ -1,16 +1,18 @@
-#badgeContainer {
-	padding: 5% 4%;
+#workContainer {
+	margin-bottom: 8%;
+}
+
+.badgeContainer {
+	padding: 0% 4%;
 	display: flex;
-	align-items: center;
-	justify-content: center;
 }
 
 .badge {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 300px;
-	width: 30%;
+	height: 400px;
+	width: 42%;
 	opacity: 0.7;
 	margin: 1.5%;
 	stroke: black;
@@ -59,6 +61,10 @@
 	background-image: url('../Logos/ericsson.png');
 }
 
+#warOnCancerLogo {
+	background-image: url('../Logos/waroncancer.png');
+}
+
 #jobTitle {
 	margin: 1%;
 	font-size: 2vw;
@@ -90,6 +96,10 @@ tspan {
 	transition: 0.3s ease;
 }
 
+#warOnCancer {
+	background-color: #005AEE;
+}
+
 #teamEngine {
 	background-color: #FCC000;
 }
@@ -103,6 +113,15 @@ tspan {
 }
 
 @media screen and (max-width: 1023px), (pointer:coarse) {
+	#workContainer {
+		margin-top: 8%;
+	}
+	
+	.badgeContainer {
+		flex-direction: column;
+		align-items: center;
+	}
+	
 	.badge {
 		width: 75%;
 		height: 100px;
@@ -119,10 +138,6 @@ tspan {
 	.companyLogo {
 		max-height: 80%;
 		max-width: 80%;
-	}
-	
-	#badgeContainer {
-		flex-direction: column;
 	}
 	
 	.workplace {
