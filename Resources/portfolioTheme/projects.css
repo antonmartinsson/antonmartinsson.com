@@ -6,7 +6,7 @@
 
 .project {
   display: flex;
-  margin: 2% 10%;
+  margin: 1% 10%;
   flex-direction: row;
   position: relative;
   margin-bottom: 5%;
@@ -120,96 +120,38 @@
   padding: 3vw 0 0 0;
 }
 
-/* MISSION EMISSION */
-
-#missionEmissionIcon {
-  width: 20vw;
-  align-self: center;
-}
-
-#missionEmissionTitle {
-  color: #ff6a5c;
-  z-index: 1;
-  font-size: 9vw;
-  margin-left: 6vw;
-  text-shadow: -10px 10px 70px rgba(255, 106, 92, 0.3);
-}
-
-#missionEmissionSuperTitle {
-  color: #770a00;
-  opacity: 0.05;
-}
-
-#missionEmissionLongText {
-  margin: 3vw 0 0 6vw;
-}
-
-#missionEmissionShortText {
-  margin: 3vw 0 0 6vw;
-}
-
 /* TWEET TO BEAT */
 
-#tweetToBeat {
+#gaugeKit {
   transition: all 1s;
 }
 
-#tweetToBeatIcon {
+#gaugeKitIcon {
   margin-right: 5vw;
   width: 27vw;
   align-self: center;
 }
 
-#tweetToBeatTitle {
+#gaugeKitTitle {
   width: 40vw;
   font-size: 9vw;
-  color: #595959;
-  text-shadow: -10px 10px 40px rgba(0, 0, 0, 0.3);
+  color: #FF9D02;
+  text-shadow: -10px 10px 40px rgba(255, 157, 2, 0.3);
 }
 
-#tweetToBeatLongText {
+#gaugeKitLongText {
   padding: 3vw 8vw 0 0;
 }
 
-#tweetToBeatShortText {
+#gaugeKitShortText {
   padding: 3vw 8vw 0 0;
-}
-
-/* POKÉFY */
-
-#pokefy {
-  padding-top: 2vw;
-  visibility: hidden;
-  opacity: 0;
-  transition: all 1s;
-}
-
-#pokefyIcon {
-  width: 20vw;
-  align-self: center;
-}
-
-#pokefyTitle {
-  padding-left: 5vw;
-  color: #fe0000;
-  z-index: 1;
-  text-shadow: -10px 10px 70px rgba(254, 0, 0, 0.3);
-}
-
-#pokefySuperTitle {
-  color: #890000;
-  opacity: 0.05;
-}
-
-#pokefyLongText {
-  padding: 3vw 0 0 6vw;
-}
-
-#pokefyShortText {
-  padding: 3vw 0 0 6vw;
 }
 
 @media screen and (max-width: 1023px) {
+	.projectContainer {
+		padding-top: 6%;
+	}
+	
   .projectLongText {
     font-size: 14pt;
   }

@@ -23,24 +23,14 @@ struct Projects {
 												   shortHand: "martinssonPhoto",
 												   link: "https://itunes.apple.com/se/app/martinsson-photography/id1451348954?mt=8")
 	
-	static let missionEmission = ProjectInfo(title: "Mission Emission",
-											 longDescription: "A project in Information Visualization at KTH, developed in partnership with Stockholm Environmental Institute to visualize carbon emissions of nautical exports from Brazil.",
-											 shortDescription: "Developed in partnership with SEI to visualize carbon emissions from Brazil.",
-											 imagePath: "ProjectImages/missionEmission.png",
-											 shortHand: "missionEmission",
-											 link: "https://fnoren17.github.io/infovis18/")
+	static let gaugeKit = ProjectInfo(title: "GaugeKit",
+																		longDescription: "GaugeKit is an open source Swift Package I built while working on a personal project of mine. It let's you easily create a gauge-like interface to visualize a value between 0 and 100.",
+																		shortDescription: "GaugeKit is an open source Swift Package I built while working on a personal project of mine.",
+																		imagePath: "ProjectImages/GaugeKit.png",
+																		shortHand: "gaugeKit",
+																		link: "https://github.com/antonmartinsson/GaugeKit")
 	
-	static let tweetToBeat = ProjectInfo(title: "Tweet to beat",
-										 longDescription: "A hackathon project built during devX 2018 utilizing Twitter and Spotify API to play a song on Spotify based on a user's most tweeted word.",
-										 shortDescription: "Play a song on Spotify based on a user's most tweeted word.",
-										 imagePath: "ProjectImages/tweetToBeat.png",
-										 shortHand: "tweetToBeat",
-										 link: "http://tweettobeat.glitch.me/")
 	
-	static let pokefy = ProjectInfo(title: "Pokéfy",
-									longDescription: "A hackathon project built during devX 2019 utilizing the PokéAPI and Spotify API to let the user experience the thrill of a Pokémon battle based on one of your recently streamed tracks.",
-									shortDescription: "Experience the thrill of a Pokémon battle based on one of your recently streamed tracks.",
-									imagePath: "ProjectImages/poke.png",
-									shortHand: "pokefy",
-									link: "https://pokefy-devx.herokuapp.com/")
+	
+	
 }
