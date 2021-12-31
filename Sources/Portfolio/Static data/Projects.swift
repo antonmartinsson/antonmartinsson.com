@@ -24,7 +24,7 @@ struct Projects {
 												   link: "https://itunes.apple.com/se/app/martinsson-photography/id1451348954?mt=8")
 	
 	static let gaugeKit = ProjectInfo(title: "GaugeKit",
-																		longDescription: "GaugeKit is an open source Swift Package I built while working on a personal project of mine. It let's you easily create a gauge-like interface to visualize a value between 0 and 100.",
+																		longDescription: "GaugeKit is an open source Swift Package I built while working on a personal project of mine. It let's you easily create a gauge-like interface to visualize a value between zero and whatever value you want it to top out at.",
 																		shortDescription: "GaugeKit is an open source Swift Package I built while working on a personal project of mine.",
 																		imagePath: "ProjectImages/GaugeKit.png",
 																		shortHand: "gaugeKit",
