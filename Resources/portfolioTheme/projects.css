@@ -44,33 +44,6 @@
   cursor: pointer;
 }
 
-.projectSuperTitle {
-  position: absolute;
-  font-family: Metropolis;
-  font-size: 17vw;
-  opacity: 0.04;
-  z-index: -1;
-  cursor: default;
-}
-
-#showMoreButton {
-  font-family: Metropolis;
-  padding: 2.2vw;
-  font-size: 2.2vw;
-  border-radius: 15px;
-  align-self: center;
-  background: rgba(207, 207, 207, 0.6);
-  border-width: 1px;
-  border-color: lightgray;
-  border-style: solid;
-  cursor: pointer;
-  transition: ease-in-out 0.2s;
-}
-
-#showMoreButton:hover {
-  color: rgba(0, 0, 0, 0.2);
-}
-
 /* PLÅTNIKLAS */
 
 #platniklasIcon {
@@ -155,10 +128,6 @@
   .projectLongText {
     font-size: 14pt;
   }
-
-  #projectSectionLabel {
-    transform: translateY(-5vw) rotate(-2deg);
-  }
 }
 
 @media screen and (max-width: 414px) {
@@ -176,9 +145,5 @@
 
   #martinssonPhotoIcon {
     width: 35vw;
-  }
-
-  #projectSectionLabel {
-    transform: translateY(-8vw) rotate(-2deg);
   }
 }

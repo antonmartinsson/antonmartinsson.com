@@ -6,11 +6,8 @@
 }
 
 #contactSectionLabel {
+	margin-top: 2vw;
   padding-right: 3.5vw;
-}
-
-#contactLabel {
-  margin-left: 1.5%;
 }
 
 #contactInfo {
@@ -58,18 +55,6 @@
 #email {
   font-size: 2vw;
   margin: 10px 0px;
-}
-
-.fab {
-  font-size: 2.5vw;
-  padding-left: 10px;
-  padding-right: 0.5vw;
-  padding-top: 20px;
-  transform: scale(1.7);
-}
-
-#contactSectionLabel {
-  margin-top: 2vw;
 }
 
 #twitterLogo {

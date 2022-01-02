@@ -30,7 +30,7 @@ struct TeamEngineBadge: Component {
 			Div {
 				Paragraph("iOS Developer")
 					.id("jobTitle")
-				Paragraph("As an iOS Developer for the rapidly growing TeamEngine, I have the responsibility of making their iOS offering the best it can be, working with the latest and greatest that Xcode and Swift has to offer.")
+				Paragraph("As the sole full time iOS Developer for the Stockholm native TeamEngine, I took their iOS offering to new highs and modernized multiple aspects of their app while the company was expanding its reach both in terms of users and employees.")
 					.class("workParagraph")
 			}
 			.class("workDescription")
