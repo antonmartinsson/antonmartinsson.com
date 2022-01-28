@@ -19,7 +19,7 @@ struct Projects {
 	static let martinssonPhotography = ProjectInfo(title: "Martinsson Photography",
 																								 longDescription: "My app on the iOS App Store, allowing you to download some of the photos on this website in great quality for a (very) small fee.  ",
 																								 shortDescription: "My app on the iOS App Store that lets you download some of the photos on this website.",
-																								 imagePath: "ProjectImages/photography.png",
+																								 imagePath: "ProjectImages/photography.svg",
 																								 shortHand: "martinssonPhoto",
 																								 link: "https://itunes.apple.com/se/app/martinsson-photography/id1451348954?mt=8")
 	
