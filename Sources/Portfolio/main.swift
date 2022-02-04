@@ -64,9 +64,9 @@ private struct PortfolioHTMLFactory<Site: Website>: HTMLFactory {
 					Div {
 						SectionLabel(label: "Code")
 						Div {
-							Project(projectInfo: Projects.platNiklas, iconAlignment: .left)
+							Project(projectInfo: Projects.gaugeKit, iconAlignment: .left)
 							Project(projectInfo: Projects.martinssonPhotography, iconAlignment: .right)
-							Project(projectInfo: Projects.tweetToBeat, iconAlignment: .left)
+							Project(projectInfo: Projects.platNiklas, iconAlignment: .left)
 						}
 						.class("projectContainer")
 					}

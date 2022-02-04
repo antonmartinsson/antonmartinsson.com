@@ -1,43 +1,43 @@
 #heroContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	margin-top: 7%;
 	margin-bottom: 7%;
-    height: 70%;
+	height: 70%;
 }
 
 .hi {
-    font-family: Beattingvile;
-    font-size: 20vw;
+	font-family: Beattingvile;
+	font-size: 20vw;
 }
 
 #subtitle {
-    font-family: Metropolis;
-    font-size: 2vw;
+	font-family: Metropolis;
+	font-size: 2vw;
 	text-align: center;
 }
 
 @media screen and (min-width: 1080px) {
-    #heroContainer {
-        height: 80%;
-    }
+	#heroContainer {
+		height: 80%;
+	}
 }
 
 @media screen and (max-width: 800px) {
-    #heroContainer {
-        height: 60vw;
+	#heroContainer {
+		height: 60vw;
 		margin-bottom: 0%;
-    }
+	}
 	
 	.hi {
 		font-size: 23vw;
 	}
-
-    #subtitle {
-        font-family: Metropolis;
-        padding-top: 10px;
-        font-size: 3vw;
-    }
+	
+	#subtitle {
+		font-family: Metropolis;
+		padding-top: 10px;
+		font-size: 3vw;
+	}
 }

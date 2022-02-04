@@ -113,6 +113,12 @@ tspan {
 	background-color: #66A3FA;
 }
 
+@media screen and (min-width: 2300px), (pointer:coarse) {
+	.badge {
+		height: 500px;
+	}
+}
+
 @media screen and (max-width: 1023px), (pointer:coarse) {
 	#workContainer {
 		margin-top: 8%;
