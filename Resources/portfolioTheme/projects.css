@@ -49,7 +49,7 @@
 #platniklasIcon {
   width: 20vw;
   align-self: center;
-  margin-right: 3vw;
+  margin-left: 3vw;
 }
 
 #platniklasTitle {
@@ -58,25 +58,20 @@
   text-shadow: 10px 10px 70px rgba(80, 214, 255, 0.4);
 }
 
-#platniklasSuperTitle {
-  color: #007596;
-  opacity: 0.05;
-}
-
 #platniklasLongText {
-  padding: 3vw 0 0 3vw;
+  padding: 3vw 0 0 0;
 }
 
 #platniklasShortText {
-  padding: 3vw 0 0 3vw;
+  padding: 3vw 0 0 0;
 }
 
 /* MARTINSSON PHOTOGRAPHY */
 
 #martinssonPhotoIcon {
-  width: 60vw;
+  width: 55vw;
   align-self: center;
-  margin-left: 3vw;
+  margin-right: 5vw;
 }
 
 #martinssonPhotoTitle {
@@ -93,7 +88,7 @@
   padding: 3vw 0 0 0;
 }
 
-/* TWEET TO BEAT */
+/* GAUGEKIT */
 
 #gaugeKit {
   transition: all 1s;
@@ -108,16 +103,45 @@
 #gaugeKitTitle {
   width: 40vw;
   font-size: 9vw;
-  color: #FF9D02;
-  text-shadow: -10px 10px 40px rgba(255, 157, 2, 0.3);
+  color: #3CBE57;
+  text-shadow: -10px 10px 40px rgba(60, 190, 87, 0.3);
 }
 
 #gaugeKitLongText {
-  padding: 3vw 8vw 0 0;
+  padding: 3vw 5vw 0 0;
 }
 
 #gaugeKitShortText {
-  padding: 3vw 8vw 0 0;
+  padding: 3vw 5vw 0 0;
+}
+
+/* CRYPTOVERVIEW */
+
+#cryptoverview {
+	transition: all 1s;
+}
+
+#cryptoverviewIcon {
+	margin-left: 5vw;
+	width: 22vw;
+	align-self: center;
+	padding: 10px;
+	filter: drop-shadow(5px 5px 5px #D1D1D1);
+}
+
+#cryptoverviewTitle {
+	width: 40vw;
+	font-size: 7vw;
+	color: #FFB34D;
+	text-shadow: -10px 10px 40px rgba(255, 179, 77, 0.3);
+}
+
+#cryptoverviewLongText {
+	padding: 3vw 3vw 0 0;
+}
+
+#cryptoverviewShortText {
+	padding: 3vw 3vw 0 0;
 }
 
 @media screen and (max-width: 1023px) {
@@ -126,11 +150,11 @@
 	}
 	
   .projectLongText {
-    font-size: 14pt;
+    font-size: 13pt;
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 600px) {
   .projectShortText {
     display: block;
   }
@@ -145,6 +169,5 @@
 
 	#martinssonPhotoIcon {
 		width: 30vw;
-		padding: 30px;
 	}
 }
