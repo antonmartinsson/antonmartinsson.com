@@ -68,6 +68,13 @@
 	height: auto;
 	width: 4.5vw;
 	align-self: center;
+	margin-right: 1.2vw;
+}
+
+#youtubeLogo {
+	height: auto;
+	width: 6.5vw;
+	align-self: center;
 }
 
 @media screen and (max-width: 1023px) {

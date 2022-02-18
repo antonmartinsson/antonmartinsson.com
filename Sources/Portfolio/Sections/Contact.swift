@@ -32,6 +32,11 @@ struct Contact: Component {
 							Image(url: "Logos/github.png", description: "Github logo")
 						}
 						.id("githubLogo")
+						
+						Link(url: "https://www.youtube.com/channel/UCJxH7hGYZABZMricpEmWZAg") {
+							Image(url: "Logos/youtube.png", description: "Youtube logo")
+						}
+						.id("youtubeLogo")
 					}
 					.style("margin-top: 20px;")
 				}
