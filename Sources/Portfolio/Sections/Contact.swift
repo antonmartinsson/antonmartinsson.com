@@ -16,12 +16,14 @@ struct Contact: Component {
 				Div {
 					Paragraph("I'm always up for a chat.")
 					Paragraph("Contact me if you are.")
-				}.id("message")
+				}
+				.id("message")
 				Div().class("grid-item-divider grid-item-divider-left")
 				VStack {
 					Div {
 						Link("antonm@rtinsson.com", url: "mailto:antonm@rtinsson.com")
-					}.id("email")
+					}
+					.id("email")
 					HStack {
 						Link(url: "https://www.twitter.com/ntonmartinsson") {
 							Image(url: "Logos/twitter.png", description: "Twitter logo")
@@ -38,7 +40,7 @@ struct Contact: Component {
 						}
 						.id("youtubeLogo")
 					}
-					.style("margin-top: 20px;")
+					.id("iconContainer")
 				}
 			}
 			.id("contactInfo")

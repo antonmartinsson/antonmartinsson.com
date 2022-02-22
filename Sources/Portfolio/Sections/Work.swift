@@ -11,12 +11,41 @@ import Plot
 struct Work: Component {
 	
 	var body: Component {
-		HStack {
-			TeamEngineBadge()
-			SpotifyBadge()
-			EricssonBadge()
+		VStack {
+			HStack {
+				WarOnCancerBadge()
+				TeamEngineBadge()
+			}
+			.class("badgeContainer")
+
+			HStack {
+				SpotifyBadge()
+				EricssonBadge()
+			}
+			.class("badgeContainer")
 		}
-		.id("badgeContainer")
+		.id("workContainer")
+	}
+}
+
+struct WarOnCancerBadge: Component {
+	
+	var body: Component {
+		Div {
+			Div()
+				.class("companyLogo")
+				.id("warOnCancerLogo")
+			Div {
+				Paragraph("iOS Engineer")
+					.id("jobTitle")
+				Paragraph("At War on Cancer, I work with in a team dedicated to creating the best possible platform for improving mental and physical health for people going through a cancer diagnosis, toiling away with some of the latest and greatest that development on Apple platforms has to offer.")
+					.class("workParagraph")
+			}
+			.class("workDescription")
+			.id("teamEngineDescription")
+		}
+		.class("badge")
+		.id("warOnCancer")
 	}
 }
 
