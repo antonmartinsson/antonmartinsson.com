@@ -38,7 +38,7 @@ struct WarOnCancerBadge: Component {
 			Div {
 				Paragraph("iOS Engineer")
 					.id("jobTitle")
-				Paragraph("At War on Cancer, I work with in a team dedicated to creating the best possible platform for improving mental and physical health for people going through a cancer diagnosis, toiling away with some of the latest and greatest that development on Apple platforms has to offer.")
+				Paragraph("At War on Cancer, I work with in a team dedicated to creating the best possible platform for improving mental health for people going through a cancer diagnosis, toiling away with some of the latest and greatest that development on Apple platforms has to offer.")
 					.class("workParagraph")
 			}
 			.class("workDescription")
