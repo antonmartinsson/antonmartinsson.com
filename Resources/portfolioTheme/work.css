@@ -12,8 +12,8 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+    flex: 1;
 	height: 350px;
-	width: 42%;
 	opacity: 0.7;
 	margin: 1.5%;
 	stroke: black;
@@ -66,6 +66,10 @@
 	background-image: url('../Logos/waroncancer.png');
 }
 
+#sveaSolarLogo {
+    background-image: url('../Logos/sveaSolar.png');
+}
+
 #jobTitle {
 	margin: 1%;
 	font-size: 2vw;
@@ -111,6 +115,10 @@ tspan {
 
 #ericsson {
 	background-color: #66A3FA;
+}
+
+#sveaSolar {
+    background-color: #CB2F6C;
 }
 
 @media screen and (min-width: 2300px), (pointer:coarse) {

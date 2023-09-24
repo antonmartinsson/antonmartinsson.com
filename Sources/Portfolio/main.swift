@@ -66,8 +66,7 @@ private struct PortfolioHTMLFactory<Site: Website>: HTMLFactory {
 						Div {
 							Project(projectInfo: Projects.gaugeKit, iconAlignment: .left)
 							Project(projectInfo: Projects.cryptoverview, iconAlignment: .right)
-							Project(projectInfo: Projects.martinssonPhotography, iconAlignment: .left)
-							Project(projectInfo: Projects.platNiklas, iconAlignment: .right)
+							Project(projectInfo: Projects.platNiklas, iconAlignment: .left)
 						}
 						.class("projectContainer")
 					}
