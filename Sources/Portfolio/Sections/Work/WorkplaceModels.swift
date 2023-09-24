@@ -18,7 +18,7 @@ struct WarOnCancer: WorkPlaceBasics {
     let id: String = "warOnCancer"
     let title: String = "iOS Engineer"
     let logoId: String = "warOnCancerLogo"
-    let description: String = "At War on Cancer, I work with in a team dedicated to creating the best possible platform for improving mental health for people going through a cancer diagnosis, toiling away with some of the latest and greatest that development on Apple platforms has to offer."
+    let description: String = "At War on Cancer, I worked with a team dedicated to creating the best possible platform for anyone living with and beyond cancer (as well as their loved ones), while toiling away with some of the latest and greatest that development on Apple platforms had to offer."
 }
 
 struct TeamEngine: WorkPlaceBasics {
