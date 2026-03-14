@@ -70,7 +70,7 @@
     background-image: url('../Logos/sveaSolar.png');
 }
 
-#jobTitle {
+.jobTitle {
 	margin: 1%;
 	font-size: 2vw;
 	font-family: Metropolis;
@@ -183,7 +183,7 @@ tspan {
 		display: block;
 	}
 	
-	#jobTitle {
+	.jobTitle {
 		display: none;
 	}
 	
@@ -193,7 +193,7 @@ tspan {
 }
 
 @media screen and (max-width: 500px) {
-	#jobTitle {
+	.jobTitle {
 		margin: 0px;
 		margin-top: 10px;
 		display: flex;

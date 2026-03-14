@@ -1,4 +1,1 @@
-*.build
-*.publish
-*.swiftpm
-/Output
+.DS_Store
