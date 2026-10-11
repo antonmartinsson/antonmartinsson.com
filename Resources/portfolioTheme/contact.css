@@ -60,6 +60,7 @@
 #email {
   font-size: 2vw;
   margin: 10px 0px;
+  white-space: nowrap;
 }
 
 #twitterLogo {
@@ -108,7 +109,8 @@
   }
 
   #email {
-    font-size: 18pt;
+    /* Scale with the viewport so the address never overflows the card */
+    font-size: min(18pt, 3.6vw);
   }
 
   #portraitContainer {
@@ -132,7 +134,7 @@
   }
 
   #email {
-    font-size: 11pt;
+    font-size: min(11pt, 3.6vw);
   }
 
   .fab {
